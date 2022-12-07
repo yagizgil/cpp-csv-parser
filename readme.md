@@ -70,4 +70,7 @@ query(vector<vector<string>> query, const char* column, const char* value, int l
 
 query(vector<vector<string>> query, string column, string value, int limit, int cmp);
 query(vector<vector<string>> query, const char* column, string value, int limit, int cmp);
+
+//int limit -- returns the specified value, if -1 unlimited
+//int cmp -- (default 0) EQUAL = 0   INCLUDE = 1
 ```
